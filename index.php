@@ -6,6 +6,7 @@
 <body style="background-color:#0F0F0F">
 	<div style="position:relative; width:640px; margin-left:auto; margin-right:auto; margin-top:150px; background-color:#151515; border-radius:15px">
 		<?php
+			echo "In PHP";
 		   class MyDB extends SQLite3
 		   {
 		      function __construct()
