@@ -14,12 +14,15 @@
 		         $this->open('test.db');
 		      }
 		   }
+		   echo "After class";
 		   $db = new MyDB();
+		   echo "After construct";
 		   if(!$db){
 		      echo $db->lastErrorMsg();
 		   } else {
 		      echo "Opened database successfully\n";
 		   }
+		   echo "done";
 		?>
 	</div>
 </body>
